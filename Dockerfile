@@ -1,4 +1,4 @@
-FROM quay.io/ipbabble/ubi8:latest
+FROM quay.io/hybridcloudpatterns/ubi-npm:latest
 COPY build/ /var/www/html/
 
 # Takes a long time...
