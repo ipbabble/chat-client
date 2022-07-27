@@ -1,4 +1,4 @@
-FROM quay.io/smileyfritz/ubi8:latest
+FROM quay.io/ipbabble/ubi8:latest
 COPY build/ /var/www/html/
 
 # Takes a long time...
